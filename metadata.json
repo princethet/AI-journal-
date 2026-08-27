@@ -1,0 +1,8 @@
+{
+  "name": "Remix ReflectAI - Conversational Journal \u0026 Reflection Coach",
+  "description": "A user-authenticated journaling and AI reflection coach application powered by Gemini 3.6 Flash, Firebase Authentication, and Cloud Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
