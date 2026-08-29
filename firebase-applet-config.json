@@ -1,7 +1,7 @@
 {
   "projectId": "gen-lang-client-0674352710",
   "appId": "1:450705644134:web:7c7e932f328e96e44f6ba7",
-  "apiKey": "AIzaSyC1MLRTgLyzY93R-GPxwkfq5k-oAD5AxfY",
+  "apiKey": "VITE_FIREBASE_API_KEY",
   "authDomain": "gen-lang-client-0674352710.firebaseapp.com",
   "firestoreDatabaseId": "ai-studio-remixreflectaico-51bc6980-8a16-426d-af64-5fa910512247",
   "storageBucket": "gen-lang-client-0674352710.firebasestorage.app",
