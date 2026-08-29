@@ -6,6 +6,23 @@ A production-ready full-stack web application combining **Next.js / React**, **F
 
 ## 🌟 Features & Architecture
 
+```mermaid
+graph TD
+    A[User] --> B[Vercel Hosted Web App - React]
+    B --> C{Authentication}
+    C -->|Google OAuth| D[Firebase Auth]
+    C -->|Guest Mode| E[Sandbox Session]
+    D -->|Success| F[Authenticated User Session]
+    
+    F --> H[ReflectAI Coaching - Gemini 3.6 Flash]
+    F --> I[AI Metadata Extraction - JSON Schema]
+    F --> J[7-Day Weekly Digest Synthesis]
+    
+    H --> K[(Cloud Firestore /users/userId/)]
+    I --> K
+    J --> K
+```
+
 1. **Public Landing & Authentication**: Clean splash page with Google Sign-In (`signInWithPopup` via Firebase Auth) and guest sandbox mode.
 2. **Private Authenticated Dashboard**: Guarded by Firebase Auth state with isolated user context.
 3. **Conversational AI Reflection Coach**: Multi-turn dialogue with Gemini (with system instructions acting as a non-judgmental, Socratic reflection mentor).
